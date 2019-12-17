@@ -19,7 +19,7 @@ spring:
     password: guest
   redis:
     host: ananops-db-redis
-#    password: ananops@redis
+    #password: root
     port: 6379
     timeout: 0
   datasource:
@@ -40,8 +40,8 @@ spring:
         login-password: admin
   mail:
     host: smtp.163.com
-    username: ananopsTest@163.com
-    password: a123456
+    username: SongOfOn@163.com
+    password: 022012bupt
     port: 465
     protocol: smtp
     test-connection: false
@@ -105,6 +105,14 @@ info:
   关于我们: http://ananops.net
 
 ananops:
+  log:
+    eurekaFilePath: /data/logs/ananops/${springAppName}
+    discoveryFilePath: /data/logs/ananops/${springAppName}
+    uacFilePath: /data/logs/ananops/${springAppName}/${springAppName}
+    gatewayFilePath: /data/logs/ananops/${springAppName}/${springAppName}
+    tpcFilePath: /data/logs/ananops/${springAppName}/${springAppName}
+    opcFilePath: /data/logs/ananops/${springAppName}/${springAppName}
+    mdcFilePath: /data/logs/ananops/${springAppName}/${springAppName}
   auth:
     jwt:
       expiredRemainMinutes: 20
