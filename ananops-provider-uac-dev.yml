@@ -26,8 +26,8 @@ pagehelper:
 
 liquibase:
   change-log: classpath:liquibase/index.xml
-  user: ${spring.datasource.username}
-  password: ${spring.datasource.password}
+  user: root #${spring.datasource.username}
+  password: root #${spring.datasource.password}
   url: ${spring.datasource.url}
 
 security:
