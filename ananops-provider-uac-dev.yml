@@ -134,3 +134,8 @@ ananops:
         clientSecret: ananopsClientSecret
         accessTokenValidateSeconds: 7200
         scope: "*"
+      clients[9]:
+        clientId: ananops-client-pmc
+        clientSecret: ananopsClientSecret
+        accessTokenValidateSeconds: 7200
+        scope: "*"
