@@ -5,7 +5,7 @@ spring:
     joda-date-time-format: yyyy-MM-dd HH:mm:ss
     date-format: yyyy-MM-dd HH:mm:ss
   cache:
-    cache-names: imc-cache
+    cache-names: pmc-cache
   datasource:
     url: jdbc:mysql://ananops-db-mysql:3306/ananops_pmc?characterEncoding=utf8&useSSL=false
   servlet:

@@ -100,9 +100,9 @@ hystrix:
             timeoutInMilliseconds: 20000
 
 info:
-  软件著作权: ananops快速搭建企业级分布式微服务平台
-  著作登记号: 2018SR320076
-  关于我们: http://ananops.net
+  软件著作权: ananops维修维护分布式微服务平台
+  著作登记号: XXXXXXXXXXXX
+  关于我们: http://com.ananops.com
 
 ananops:
   auth:
@@ -111,8 +111,8 @@ ananops:
       expiredMinutes: 120
   aliyun:
     key:
-      accessKeyId: 'your aliyun accessKeyId'
-      accessKeySecret: 'your aliyun accessKeySecret'
+      accessKeyId: LTAI4Fc5yCdgVgviT3A4dQdy
+      accessKeySecret: vWRqI5vkmrxZ1NdZb5VR4aZStmdsfg
     rocketMq:
       namesrvAddr: ananops-mq-rocket:9876
     sms:
@@ -124,11 +124,11 @@ ananops:
       domain: dysmsapi.aliyuncs.com
   qiniu:
     key:
-      accessKey: 'your qiniu accessKey'
-      secretKey: 'your qiniu secretKey'
+      accessKey: LTAI4Fc5yCdgVgviT3A4dQdy
+      secretKey: vWRqI5vkmrxZ1NdZb5VR4aZStmdsfg
     oss:
-      privateHost: 'your qiniu oss private host'
-      publicHost: 'your qiniu oss public host'
+      privateHost: http://oss-cn-beijing.aliyuncs.com
+      publicHost: http://oss-cn-beijing.aliyuncs.com
   alipay:
     callback:
       url: http://dev-api.ananops.net/omc/pay/alipayCallback
